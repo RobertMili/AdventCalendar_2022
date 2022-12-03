@@ -126,7 +126,7 @@
       <workItem from="1669973441853" duration="14838000" />
       <workItem from="1670002740706" duration="3634000" />
       <workItem from="1670020041136" duration="1144000" />
-      <workItem from="1670058972606" duration="13014000" />
+      <workItem from="1670058972606" duration="14961000" />
     </task>
     <task id="LOCAL−00001" summary="Day1 finish">
       <created>1669973563538</created>
@@ -152,7 +152,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1670070331161</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="day3 in process&#10;&#10;for loop problem">
+      <created>1670072646129</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1670072646129</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
