@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="Day1 finish">
+      <change afterPath="$PROJECT_DIR$/src/Day3/Testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/inpute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/readingFIle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +27,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ILuyQ1ba2WAFX57ti8fnBLyUZU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,7 +49,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.45632184",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,13 +57,26 @@
       <recent name="C:\Users\dell\OneDrive\Skrivbord\ITHS-Utbildning\Udemy\AdvemtCalendar_2022\src\Day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day2.Main">
+  <component name="RunManager" selected="Application.Day3.Main">
     <configuration name="Day2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day2.Main" />
       <module name="AdvemtCalendar_2022" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.Main" />
+      <module name="AdvemtCalendar_2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +97,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.Testing" />
+      <module name="AdvemtCalendar_2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day3.Main" />
+        <item itemvalue="Application.Testing" />
         <item itemvalue="Application.Day2.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -93,7 +127,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669973440126</updated>
-      <workItem from="1669973441853" duration="14446000" />
+      <workItem from="1669973441853" duration="14838000" />
+      <workItem from="1670002740706" duration="3634000" />
+      <workItem from="1670020041136" duration="1144000" />
+      <workItem from="1670058972606" duration="10647000" />
     </task>
     <task id="LOCAL−00001" summary="Day1 finish">
       <created>1669973563538</created>
@@ -107,7 +144,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1669973622952</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Day1 finish">
+      <created>1669988885461</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1669988885461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
