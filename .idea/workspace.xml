@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="Day1 finish">
-      <change afterPath="$PROJECT_DIR$/src/Day3/Testing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day3/inpute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day3/readingFIle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day3/readme.md" afterDir="false" />
+    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="day3 in process&#10;&#10;for loop problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +126,7 @@
       <workItem from="1669973441853" duration="14838000" />
       <workItem from="1670002740706" duration="3634000" />
       <workItem from="1670020041136" duration="1144000" />
-      <workItem from="1670058972606" duration="10647000" />
+      <workItem from="1670058972606" duration="13014000" />
     </task>
     <task id="LOCAL−00001" summary="Day1 finish">
       <created>1669973563538</created>
@@ -150,7 +146,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1669988885461</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="day3 in process&#10;&#10;for loop problem">
+      <created>1670070331161</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1670070331161</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day1 finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day1 finish" />
+    <MESSAGE value="day3 in process&#10;&#10;for loop problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="day3 in process&#10;&#10;for loop problem" />
   </component>
 </project>
