@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="day3 in process&#10;&#10;for loop problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day3/inpute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3/inpute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day3/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +128,7 @@
       <workItem from="1669973441853" duration="14838000" />
       <workItem from="1670002740706" duration="3634000" />
       <workItem from="1670020041136" duration="1144000" />
-      <workItem from="1670058972606" duration="14961000" />
+      <workItem from="1670058972606" duration="18241000" />
     </task>
     <task id="LOCAL−00001" summary="Day1 finish">
       <created>1669973563538</created>
@@ -158,7 +160,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1670072646129</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="day3 in process&#10;&#10;for loop problem">
+      <created>1670074864808</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1670074864808</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
