@@ -38,20 +38,12 @@ public class Main {
 
         for (int i = 0; i < readingFile.size(); i++) {
 
-            if ( (addToInteger.get(A1) <= addToInteger.get(B1) && addToInteger.get(B2) <= addToInteger.get(A2))
-                    ||
-                    (addToInteger.get(B2) <= addToInteger.get(A1) && addToInteger.get(A2) <= addToInteger.get(B2))) {
+            if ( (addToInteger.get(A1) <= addToInteger.get(B2) && addToInteger.get(B2) <= addToInteger.get(A1))
+                    ||  (addToInteger.get(B1) >= addToInteger.get(A1) && addToInteger.get(A2) <= addToInteger.get(B1))) {
                 score += 1;
             }
 
-            /*
-                    elf1_left, elf1_right ||  elf2_left, elf2_right
 
-               if ((elf1_left <= elf2_left && elf2_right <= elf1_right)
-                            || (elf2_left <= elf1_left && elf1_right <= elf2_right)) {
-                        sum++;
-                    }
-             */
 
             A1 += 4;
             A2 += 4;
