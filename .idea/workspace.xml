@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="day3 in process&#10;&#10;for loop problem">
-      <change afterPath="$PROJECT_DIR$/src/Day4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day4/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day4/readingFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day4/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day4/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day4/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day4/readingFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day4/readingFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <recent name="C:\Users\dell\OneDrive\Skrivbord\ITHS-Utbildning\Udemy\AdvemtCalendar_2022\src\Day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day4.Main">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Day2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day2.Main" />
       <module name="AdvemtCalendar_2022" />
@@ -97,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day1.Main" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day4.Test" />
       <module name="AdvemtCalendar_2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day1.*" />
+          <option name="PATTERN" value="Day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Day4.Main" />
         <item itemvalue="Application.Day3.Main" />
         <item itemvalue="Application.Testing" />
         <item itemvalue="Application.Day2.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +144,7 @@
       <workItem from="1670002740706" duration="3634000" />
       <workItem from="1670020041136" duration="1144000" />
       <workItem from="1670058972606" duration="18241000" />
-      <workItem from="1670145142342" duration="9460000" />
+      <workItem from="1670145142342" duration="18970000" />
     </task>
     <task id="LOCAL−00001" summary="Day1 finish">
       <created>1669973563538</created>
@@ -195,7 +194,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1670145341500</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="day3 in process&#10;&#10;for loop problem">
+      <created>1670187012099</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1670187012099</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

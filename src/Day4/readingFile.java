@@ -29,8 +29,6 @@ public class readingFile {
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
-        List<String> list = new ArrayList<>();
-
 
         while (s.hasNextLine()) {
 
