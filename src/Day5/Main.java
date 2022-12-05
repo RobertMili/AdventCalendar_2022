@@ -7,49 +7,61 @@ public class Main {
     static List<String> readingFile = new ArrayList<>();
     static List<String> inputFile = new ArrayList<>();
 
-    static List<String> stack1 = new ArrayList<>();
-    static List<String> stack2 = new ArrayList<>();
-    static List<String> stack3 = new ArrayList<>();
+    static ArrayList<Integer> test = new ArrayList<>();
 
 
     public static void main(String[] args) {
 
-
+        String[] clearingToInteger = new String[readingFile.size()];
         Day5.readingFile.readingFIle((ArrayList<String>) readingFile);
 
-//        readingFile.forEach(System.out::println);
-        inputFile.addAll(readingFile);
-
-        var clearingFile = new ArrayList<>(inputFile
-                .stream()
-                .flatMap(line -> Arrays.stream(line.split("move")))
-                .flatMap(line -> Arrays.stream(line.split("from")))
-                .flatMap(line -> Arrays.stream(line.split("to")))
-                .flatMap(line -> Arrays.stream(line.split(" ")))
-                .flatMap(line -> Arrays.stream(line.split("")))
-                .toList());
 
 
-        clearingFile.removeIf(String::isEmpty);
+        for (int i = 0; i < readingFile.size() - 1; i++) {
+            clearingToInteger = readingFile.get(i).split(" ");
 
-//        System.out.println(clearingFile.toString());
+
+            for (String number : clearingToInteger) {
+
+                if (number.matches("\\d+")) {
+
+                    inputFile.addAll(Collections.singleton(number));
+                }
+            }
+        }
+
+
+
+//        var clearingFile = new ArrayList<>(inputFile
+//                .stream()
+//                .flatMap(line -> Arrays.stream(line.clearingToInteger("move")))
+//                .flatMap(line -> Arrays.stream(line.clearingToInteger("from")))
+//                .flatMap(line -> Arrays.stream(line.clearingToInteger("to")))
+//                .flatMap(line -> Arrays.stream(line.clearingToInteger(" ")))
+//                .flatMap(line -> Arrays.stream(line.clearingToInteger("")))
+//                .toList());
+////
+//
+//
+//
+
+
+        var clearingFile = new ArrayList<>(inputFile);
 
 
         var inputMap = inputMap2();
 
 
 
-//        inputMap.put(1,inputMap.get(1) + inputMap.get(2).substring(2,3));
-//        inputMap.put(2,inputMap.get(2).substring(0,2));
 
         int tempZero = 0;
         int tempOne = 1;
         int tempTwo = 2;
 
-        System.out.println("Size of reading file " + readingFile.size());
-        for (int i = 0; i < readingFile.size(); i++) { //readingfile.size
 
-            int elementsNumber = Integer.parseInt(clearingFile.get(tempZero));
+        for (int i = 0; i < readingFile.size() - 1; i++) {
+
+            int move = Integer.parseInt(clearingFile.get(tempZero));
 
             int from = Integer.parseInt(clearingFile.get(tempOne));
 
@@ -57,20 +69,21 @@ public class Main {
 
 
             String revesreElements = inputMap.get(from).chars()
-                    .mapToObj( c -> (char)c)
-                    .reduce("", (s, c) -> c+s,(s1,s2) -> s2 +s1);
-            System.out.println( "reverse elemnts " + revesreElements);
+                    .mapToObj(c -> (char) c)
+                    .reduce("", (s, c) -> c + s, (s1, s2) -> s2 + s1);
+//
+//            String revesreElements = inputMap.get(from).substring(inputMap.get(from).length() - from);
+//            System.out.println("This is revers " + revesreElements);
 
-            System.out.println("Elements numbers " + elementsNumber);
-            System.out.println("From " + from);
-            System.out.println("to " + to);
+            System.out.println("Move " + move + " " + "From " + from + " To " + to);
+
 
             try {
-                inputMap.put(to, inputMap.get(to) + revesreElements.substring(0, elementsNumber)); // add
+                inputMap.put(to, inputMap.get(to) + revesreElements.substring(0, move)); // add
 
-                inputMap.put(from, inputMap.get(from).substring(0, inputMap.get(from).length() - elementsNumber));                  // left
+                inputMap.put(from, inputMap.get(from).substring(0, inputMap.get(from).length() - move));                  // left
 
-            } catch (Exception e){
+            } catch (Exception e) {
                 System.out.println(e);
             }
 
@@ -85,10 +98,19 @@ public class Main {
         }
 
 
-       System.out.println("After loop " + inputMap.toString());
 
+        System.out.println("This is answer:");
+            System.out.print(inputMap.get(1).substring(inputMap.get(1).length() - 1));
+            System.out.print(inputMap.get(2).substring(inputMap.get(2).length() - 1));
+            System.out.print(inputMap.get(3).substring(inputMap.get(3).length() - 1));
+            System.out.print(inputMap.get(4).substring(inputMap.get(4).length() - 1));
+//            System.out.print(inputMap.get(5).substring(inputMap.get(5).length() - 1));
+            System.out.print(inputMap.get(6).substring(inputMap.get(6).length() - 1));
+            System.out.print(inputMap.get(7).substring(inputMap.get(7).length() - 1));
+            System.out.print(inputMap.get(8).substring(inputMap.get(8).length() - 1));
+            System.out.print(inputMap.get(9).substring(inputMap.get(9).length() - 1));
 
-
+            //TPGVQPFDH
     }
 
     public static Map<Integer, String> inputMap() {
@@ -101,7 +123,7 @@ public class Main {
 
     public static Map<Integer, String> inputMap2() {
         return new HashMap<>((Map.of(
-                1, "PFMQWGR",
+                1, "PFMQWGRT",
                 2, "HFR",
                 3, "PZRVGHSD",
                 4, "QHPBFWG",
@@ -113,7 +135,7 @@ public class Main {
         )));
 
 
-
     }
 }
 
+//VMWRJDLRC

@@ -16,7 +16,8 @@ public class readingFile {
         Path homePath = Path.of(homeFolder);
         //System.out.println(Files.exists(homePath));
 
-        Path filePath = Path.of(homeFolder, "Day5/input.txt");
+//        Path filePath = Path.of(homeFolder, "Day5/input.txt"); // input with test
+        Path filePath = Path.of(homeFolder, "Day5/inputOrginal.txt");
 
         Scanner s = null;
         try {

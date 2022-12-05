@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="day3 in process&#10;&#10;for loop problem">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day5/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day5/inputOrginal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day5/readingFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day5/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day5/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day5/readingFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/readingFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +145,7 @@
       <workItem from="1670020041136" duration="1144000" />
       <workItem from="1670058972606" duration="18241000" />
       <workItem from="1670145142342" duration="19674000" />
-      <workItem from="1670232072713" duration="16699000" />
+      <workItem from="1670232072713" duration="24989000" />
     </task>
     <task id="LOCAL−00001" summary="Day1 finish">
       <created>1669973563538</created>
@@ -211,7 +207,13 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1670197102405</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="day3 in process&#10;&#10;for loop problem">
+      <created>1670262386008</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1670262386008</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
