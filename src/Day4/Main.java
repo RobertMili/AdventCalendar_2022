@@ -38,8 +38,8 @@ public class Main {
 
         for (int i = 0; i < readingFile.size(); i++) {
 
-            if ( (addToInteger.get(A1) <= addToInteger.get(B2) && addToInteger.get(B2) <= addToInteger.get(A1))
-                    ||  (addToInteger.get(B1) >= addToInteger.get(A1) && addToInteger.get(A2) <= addToInteger.get(B1))) {
+            if ( (addToInteger.get(A1) >= addToInteger.get(B1) && addToInteger.get(A1) <= addToInteger.get(B2))
+                    ||  (addToInteger.get(A2) <= addToInteger.get(A2) && addToInteger.get(A2) >= addToInteger.get(B1))) {
                 score += 1;
             }
 
