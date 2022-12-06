@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="day3 in process&#10;&#10;for loop problem">
+    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="Task 1 is finish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Day5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Day5/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day5/readingFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day5/readingFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
   <component name="RunManager" selected="Application.Main">
     <configuration name="Day3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day3.Main" />
-      <module name="AdvemtCalendar_2022" />
+      <module name="AdventCalendar_2022" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day3.*" />
@@ -72,7 +71,7 @@
     </configuration>
     <configuration name="Day4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day4.Main" />
-      <module name="AdvemtCalendar_2022" />
+      <module name="AdventCalendar_2022" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day4.*" />
@@ -85,7 +84,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day5.Main" />
-      <module name="AdvemtCalendar_2022" />
+      <module name="AdventCalendar_2022" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day5.*" />
@@ -98,7 +97,7 @@
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day4.Test" />
-      <module name="AdvemtCalendar_2022" />
+      <module name="AdventCalendar_2022" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day4.*" />
@@ -111,7 +110,7 @@
     </configuration>
     <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day3.Testing" />
-      <module name="AdvemtCalendar_2022" />
+      <module name="AdventCalendar_2022" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day3.*" />
@@ -145,7 +144,8 @@
       <workItem from="1670020041136" duration="1144000" />
       <workItem from="1670058972606" duration="18241000" />
       <workItem from="1670145142342" duration="19674000" />
-      <workItem from="1670232072713" duration="24989000" />
+      <workItem from="1670232072713" duration="27263000" />
+      <workItem from="1670317874213" duration="30000" />
     </task>
     <task id="LOCAL−00001" summary="Day1 finish">
       <created>1669973563538</created>
@@ -213,7 +213,13 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1670262386008</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="Task 1 is finish">
+      <created>1670274315228</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1670274315228</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +239,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day1 finish" />
     <MESSAGE value="day3 in process&#10;&#10;for loop problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="day3 in process&#10;&#10;for loop problem" />
+    <MESSAGE value="Task 1 is finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 1 is finish" />
   </component>
 </project>
