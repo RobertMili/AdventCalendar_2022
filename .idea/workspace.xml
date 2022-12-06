@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="Task 1 is finish" />
+    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="Task 1 is finish">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day_6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day_6/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +19,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -146,6 +152,7 @@
       <workItem from="1670331785617" duration="166000" />
       <workItem from="1670331971164" duration="515000" />
       <workItem from="1670335606070" duration="389000" />
+      <workItem from="1670343840395" duration="5198000" />
     </task>
     <task id="LOCAL−00001" summary="Day1 finish">
       <created>1669973563538</created>
@@ -249,7 +256,13 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1670335921531</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="Task 1 is finish">
+      <created>1670343859846</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1670343859846</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
