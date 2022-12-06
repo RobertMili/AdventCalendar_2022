@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="Task 1 is finish">
-      <change afterPath="$PROJECT_DIR$/src/Day_6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day_6/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day_6/readingFIle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day_6/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="Task 1 is finish" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,6 +145,7 @@
       <workItem from="1670317937534" duration="3250000" />
       <workItem from="1670331785617" duration="166000" />
       <workItem from="1670331971164" duration="515000" />
+      <workItem from="1670335606070" duration="304000" />
     </task>
     <task id="LOCAL−00001" summary="Day1 finish">
       <created>1669973563538</created>
@@ -242,7 +237,13 @@
       <option name="presentableId" value="LOCAL−00015" />
       <updated>1670318056446</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL−00016" summary="Task 1 is finish">
+      <created>1670335825353</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1670335825353</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
