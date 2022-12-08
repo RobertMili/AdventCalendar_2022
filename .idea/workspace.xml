@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="Task 1 is finish">
+    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="asdasa">
+      <change afterPath="$PROJECT_DIR$/src/Day8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day8/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day8/readingFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day8/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day_6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day_6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day_6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day_6/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day6/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day_6/readingFIle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day6/readingFIle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day_6/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day6/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,20 +64,7 @@
       <recent name="C:\Users\dell\OneDrive\Skrivbord\ITHS-Utbildning\Udemy\AdvemtCalendar_2022\src\Day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day_6.Main">
-    <configuration name="Day3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day3.Main" />
-      <module name="AdventOfCode2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Day8.Main">
     <configuration name="Day4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day4.Main" />
       <module name="AdventOfCode2022" />
@@ -84,12 +78,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day_6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day_6.Main" />
+    <configuration name="Day6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day6.Main" />
       <module name="AdventOfCode2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day_6.*" />
+          <option name="PATTERN" value="Day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day8.Main" />
+      <module name="AdventOfCode2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day_6.Main" />
+        <item itemvalue="Application.Day8.Main" />
+        <item itemvalue="Application.Day6.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Day4.Main" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Day3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +159,9 @@
       <workItem from="1670331785617" duration="166000" />
       <workItem from="1670331971164" duration="515000" />
       <workItem from="1670335606070" duration="389000" />
-      <workItem from="1670343840395" duration="5198000" />
+      <workItem from="1670343840395" duration="5510000" />
+      <workItem from="1670492129830" duration="3356000" />
+      <workItem from="1670513248304" duration="12712000" />
     </task>
     <task id="LOCAL−00001" summary="Day1 finish">
       <created>1669973563538</created>
@@ -262,7 +271,13 @@
       <option name="presentableId" value="LOCAL−00018" />
       <updated>1670343859846</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="Task 1 is finish">
+      <created>1670349388523</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1670349388523</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

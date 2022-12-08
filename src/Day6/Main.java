@@ -1,4 +1,4 @@
-package Day_6;
+package Day6;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Day_6.readingFIle.readingFIle((ArrayList<String>) readingFile);
+        Day6.readingFIle.readingFIle((ArrayList<String>) readingFile);
 
         String text = readingFile.stream().map(String::valueOf).collect(Collectors.joining());
 

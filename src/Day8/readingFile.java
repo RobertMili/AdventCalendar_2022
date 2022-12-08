@@ -1,4 +1,4 @@
-package Day_6;
+package Day8;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,18 +6,17 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class readingFIle {
+public class readingFile {
 
     public static void readingFIle(ArrayList<String> StringToList) {
 
         String homeFolder = System.getProperty("java.class.path"); // This is taking from java
-        //System.out.println(homeFolder);
+        System.out.println(homeFolder);
 
         Path homePath = Path.of(homeFolder);
         //System.out.println(Files.exists(homePath));
 
-//        Path filePath = Path.of(homeFolder, "Day5/input.txt"); // input with test
-        Path filePath = Path.of(homeFolder, "Day_6/input.txt");
+        Path filePath = Path.of(homeFolder, "Day8/input");
 
         Scanner s = null;
         try {
