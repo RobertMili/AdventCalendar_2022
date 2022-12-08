@@ -1,81 +1,94 @@
 package Day8;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Main {
-    static List<String> readingFile = new ArrayList<>();
-    static List<Integer> convertToNum = new ArrayList<>();
+
+    private static int width = 0;
+    private static int height = 0;
+
+    static List<String> input = new ArrayList<>();
 
     public static void main(String[] args) {
 
-        Day8.readingFile.readingFIle((ArrayList<String>) readingFile);
-        int topRow = readingFile.get(0).length();
-        int bottomRow = readingFile.get(readingFile.size() - 1).length();
-        int leftSize = readingFile.size();
-        int rightSize = readingFile.size();
-
-        for (String s : readingFile) {
-            System.out.println(s);
-        }
-
-        List<List<Integer>> list = new ArrayList<>();
-        for (String s : readingFile) {
-            Integer parseInt = Integer.parseInt(s);
-            list.add(Collections.singletonList(parseInt));
-        }
-//
-//
-//        System.out.println("Top row " + topRow);
-//        System.out.println("bottom row " + bottomRow);
+        Day8.readingFile.readingFIle((ArrayList<String>) input);
 
 
-        List<String> newLista = new ArrayList<>();
+        Set<Point> visible = new HashSet<>();
 
-        int firstNumber = 0;
-        for (int i = 1; i < readingFile.size() - 1; i++) {
+        width = input.get(0).length();
+        height = input.size();
 
-            newLista.add(readingFile.get(i).substring(1, 4));
+        for (int row = 0; row < input.size(); row++) {
 
-        }
+            String s = input.get(row);
 
-//        for (String s : newLista) {
-//            System.out.println(s);
-//        }
+            char leftTall = 0;
+            char rightTall = 0;
 
+            for (int col = 0; col < s.length(); col++) {
 
-        int temp = 1;
-        int tempSecond = 2;
-        int count = 0;
-
-        System.out.println("  ");
-            for (int i = 1; i < readingFile.size() -1; i++) {
-
-                for (int j = 0; j < i; j++) {
-                    System.out.println(readingFile.get(i));
-//
+                if (s.charAt(col) > leftTall)
+                {
+                    visible.add(new Point(row, col));
+                     leftTall = s.charAt(col);
                 }
 
+                int rightColumn = s.length() - (col + 1);
 
-//                if (Integer.parseInt(readingFile.get(i).substring(i, temp)) >= Integer.parseInt(readingFile.get(i).substring(temp, tempSecond))) {
-//                    System.out.println(readingFile.get(i).substring(i, temp));
-//                    count++;
-//                }
-//
-//                temp++;
-//                tempSecond++;
-
-
+                if (s.charAt(rightColumn) > rightTall)
+                {
+                    visible.add(new Point(row, rightColumn));
+                    rightTall = s.charAt(rightColumn);
+                }
 
             }
+        }
 
-        System.out.println(count);
+        String s = input.get(0);
+
+        for (int col = 0; col < s.length(); col++) {
 
 
+            char toppTall = 0;
+            char bottomTall = 0;
+
+            for (int row = 0; row < input.size(); row++) {
+
+                String s2 = input.get(row);
+
+                if (s2.charAt(col) > toppTall) {
+
+                    visible.add( new Point( row,col));
+                    toppTall = s2.charAt(col);
+
+                }
+                int rowTopp = input.size() - (row + 1 );
+                s2 = input.get(rowTopp);
+
+                if (s2.charAt(col) > bottomTall) {
+
+                    visible.add(new Point(rowTopp,col));
+                    bottomTall = s2.charAt(col);
+                }
+
+            }
+        }
+        System.out.println(visible.size());
     }
 
 
+
+}
+
+record Point(int row, int col) {
+    @Override
+    public String toString() {
+        return "Point{" +
+                "row=" + row +
+                ", col=" + col +
+                '}';
+    }
 }
 
 

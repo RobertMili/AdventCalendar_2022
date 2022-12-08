@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="asdasa">
-      <change afterPath="$PROJECT_DIR$/src/Day8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/readingFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/readme.md" afterDir="false" />
+    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="My test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day_6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day_6/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day6/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day_6/readingFIle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day6/readingFIle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day_6/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day6/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +154,7 @@
       <workItem from="1670335606070" duration="389000" />
       <workItem from="1670343840395" duration="5510000" />
       <workItem from="1670492129830" duration="3356000" />
-      <workItem from="1670513248304" duration="12712000" />
+      <workItem from="1670513248304" duration="15653000" />
     </task>
     <task id="LOCAL−00001" summary="Day1 finish">
       <created>1669973563538</created>
@@ -277,7 +270,13 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1670349388523</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="My test">
+      <created>1670532110842</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1670532110842</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +297,7 @@
     <MESSAGE value="Day1 finish" />
     <MESSAGE value="day3 in process&#10;&#10;for loop problem" />
     <MESSAGE value="Task 1 is finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1 is finish" />
+    <MESSAGE value="My test" />
+    <option name="LAST_COMMIT_MESSAGE" value="My test" />
   </component>
 </project>
