@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="My test">
-      <change afterPath="$PROJECT_DIR$/src/Day3/Streams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day9/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day9/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day9/readingFIle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/readingFile.java" afterDir="false" />
+    <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="Finish it both task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day3/inpute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3/inpute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day8/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +57,7 @@
       <recent name="C:\Users\dell\OneDrive\Skrivbord\ITHS-Utbildning\Udemy\AdvemtCalendar_2022\src\Day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day3.Main">
+  <component name="RunManager" selected="Application.day10.Main">
     <configuration name="Day3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day3.Main" />
       <module name="AdventOfCode2022" />
@@ -136,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day3.Main" />
         <item itemvalue="Application.day10.Main" />
+        <item itemvalue="Application.Day3.Main" />
         <item itemvalue="Application.Day9.Main" />
         <item itemvalue="Application.Day8.Main" />
         <item itemvalue="Application.Day6.Main" />
@@ -169,7 +158,7 @@
       <workItem from="1670576415119" duration="58000" />
       <workItem from="1670578091098" duration="7990000" />
       <workItem from="1670595937215" duration="9272000" />
-      <workItem from="1670841798680" duration="16367000" />
+      <workItem from="1670841798680" duration="21454000" />
     </task>
     <task id="LOCAL−00001" summary="Day1 finish">
       <created>1669973563538</created>
@@ -297,7 +286,13 @@
       <option name="presentableId" value="LOCAL−00021" />
       <updated>1670535172904</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL−00022" summary="Finish it both task">
+      <created>1670861362985</created>
+      <option name="number" value="LOCAL−00022" />
+      <option name="presentableId" value="LOCAL−00022" />
+      <updated>1670861362985</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +314,7 @@
     <MESSAGE value="day3 in process&#10;&#10;for loop problem" />
     <MESSAGE value="Task 1 is finish" />
     <MESSAGE value="My test" />
-    <option name="LAST_COMMIT_MESSAGE" value="My test" />
+    <MESSAGE value="Finish it both task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish it both task" />
   </component>
 </project>
