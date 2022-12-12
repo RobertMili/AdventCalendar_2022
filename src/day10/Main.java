@@ -18,29 +18,32 @@ public class Main {
         int cycle = 0;
         int part1 = 0;
 
-        while (index < input.size()){
+        while (index < input.size()) {
 
-           String[] parts = input.get(index).split(" ");
+            String[] parts = input.get(index).split(" ");
 
-            switch (parts[0]){
+            cycle++;
+
+            if (cycle == 20 || cycle == 60 || cycle == 100 || cycle == 140 || cycle == 180 || cycle == 220) {
+                part1 += (register * cycle);
+            }
+
+            switch (parts[0]) {
 
                 case "noop" -> index++;
 
-                case "addx" ->
-                {
-                    if (delay == 0)
-                    {
+                case "addx" -> {
+                    if (delay == 0) {
                         delay++;
                     } else {
                         register += Integer.parseInt(parts[1]);
-                        delay =0;
+                        delay = 0;
                         index++;
                     }
                 }
             }
-            cycle++;
-
         }
+        System.out.println(part1);
     }
 }
 
