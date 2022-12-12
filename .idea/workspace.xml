@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ae4a4dd-2da8-4125-8f7a-a9e043401ef1" name="Changes" comment="My test">
+      <change afterPath="$PROJECT_DIR$/src/Day3/Streams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day9/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day9/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day9/readingFIle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/readingFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day3/inpute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3/inpute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Day8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day8/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/input" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +60,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.45632184&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -57,13 +68,13 @@
       <recent name="C:\Users\dell\OneDrive\Skrivbord\ITHS-Utbildning\Udemy\AdvemtCalendar_2022\src\Day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day8.Main">
-    <configuration name="Day4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day4.Main" />
+  <component name="RunManager" selected="Application.Day3.Main">
+    <configuration name="Day3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3.Main" />
       <module name="AdventOfCode2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day4.*" />
+          <option name="PATTERN" value="Day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day5.Main" />
+    <configuration name="Day9.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day9.Main" />
       <module name="AdventOfCode2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day5.*" />
+          <option name="PATTERN" value="Day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day4.Test" />
+    <configuration name="day10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.Main" />
       <module name="AdventOfCode2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day4.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day3.Main" />
+        <item itemvalue="Application.day10.Main" />
+        <item itemvalue="Application.Day9.Main" />
         <item itemvalue="Application.Day8.Main" />
         <item itemvalue="Application.Day6.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Day4.Main" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +165,11 @@
       <workItem from="1670335606070" duration="389000" />
       <workItem from="1670343840395" duration="5510000" />
       <workItem from="1670492129830" duration="3356000" />
-      <workItem from="1670513248304" duration="15653000" />
+      <workItem from="1670513248304" duration="19331000" />
+      <workItem from="1670576415119" duration="58000" />
+      <workItem from="1670578091098" duration="7990000" />
+      <workItem from="1670595937215" duration="9272000" />
+      <workItem from="1670841798680" duration="16367000" />
     </task>
     <task id="LOCAL−00001" summary="Day1 finish">
       <created>1669973563538</created>
@@ -276,7 +291,13 @@
       <option name="presentableId" value="LOCAL−00020" />
       <updated>1670532110842</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL−00021" summary="My test">
+      <created>1670535172904</created>
+      <option name="number" value="LOCAL−00021" />
+      <option name="presentableId" value="LOCAL−00021" />
+      <updated>1670535172904</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

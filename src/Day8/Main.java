@@ -13,6 +13,9 @@ public class Main {
 
         Day8.readingFile.readingFIle((ArrayList<String>) input);
 
+        for (String s : input) {
+            System.out.println(s);
+        }
 
         Set<Point> visible = new HashSet<>();
 
@@ -23,27 +26,38 @@ public class Main {
 
             String s = input.get(row);
 
+
             char leftTall = 0;
             char rightTall = 0;
 
+
             for (int col = 0; col < s.length(); col++) {
 
-                if (s.charAt(col) > leftTall)
-                {
+
+                if (s.charAt(col) > leftTall) {
+
                     visible.add(new Point(row, col));
-                     leftTall = s.charAt(col);
+                    leftTall = s.charAt(col);
+
                 }
 
                 int rightColumn = s.length() - (col + 1);
 
-                if (s.charAt(rightColumn) > rightTall)
-                {
+
+//                System.out.print(" Right column-" + rightColumn);
+                if (s.charAt(rightColumn) > rightTall) {
                     visible.add(new Point(row, rightColumn));
                     rightTall = s.charAt(rightColumn);
                 }
 
+//                System.out.print(" C-" + col);
             }
+//            System.out.println(" R-" +row);
+
         }
+
+
+        System.out.println("-----------");
 
         String s = input.get(0);
 
@@ -56,40 +70,44 @@ public class Main {
             for (int row = 0; row < input.size(); row++) {
 
                 String s2 = input.get(row);
+                System.out.print(" col- " + s2.charAt(col));
+                System.out.println(" TT- " + toppTall);
 
                 if (s2.charAt(col) > toppTall) {
 
-                    visible.add( new Point( row,col));
+                    visible.add(new Point(row, col));
                     toppTall = s2.charAt(col);
 
                 }
-                int rowTopp = input.size() - (row + 1 );
+                int rowTopp = input.size() - (row + 1);
                 s2 = input.get(rowTopp);
 
                 if (s2.charAt(col) > bottomTall) {
 
-                    visible.add(new Point(rowTopp,col));
+                    visible.add(new Point(rowTopp, col));
                     bottomTall = s2.charAt(col);
                 }
 
+
             }
+
+
+//        }
+            System.out.println(visible.size());
         }
-        System.out.println(visible.size());
+
+
     }
 
-
-
-}
-
-record Point(int row, int col) {
-    @Override
-    public String toString() {
-        return "Point{" +
-                "row=" + row +
-                ", col=" + col +
-                '}';
+    record Point(int row, int col) {
+        @Override
+        public String toString() {
+            return "Point{" +
+                    "row=" + row +
+                    ", col=" + col +
+                    '}';
+        }
     }
 }
-
 
 
